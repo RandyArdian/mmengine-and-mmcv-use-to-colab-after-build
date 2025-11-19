@@ -22,6 +22,10 @@ drive.mount('/content/gdrive', force_remount=True)
 from mmengine.model import constant_init
 from mmcv.cnn import build_activation_layer, build_norm_layer
 from mmcv.ops.modulated_deform_conv import ModulatedDeformConv2d
-
+# memetakan path agar bisa digunakan (wajib)
+import sys
+sys.path.append('/content/gdrive/MyDrive/Riset/mmcv')
+sys.path.append('/content/gdrive/MyDrive/Riset/ultralytics')
+sys.path.append('/content/gdrive/MyDrive/Riset/mmengine')
 #kedua library tersebut bisa dipanggil di modul ultralytics, sepeti contoh diatas.
 #Randy_Ardiansyah_23_oktober_2025
