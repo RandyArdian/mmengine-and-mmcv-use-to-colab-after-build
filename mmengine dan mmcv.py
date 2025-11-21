@@ -27,5 +27,8 @@ import sys
 sys.path.append('/content/gdrive/MyDrive/Riset/mmcv')
 sys.path.append('/content/gdrive/MyDrive/Riset/ultralytics')
 sys.path.append('/content/gdrive/MyDrive/Riset/mmengine')
+
+# melakukan jnstalasi pytorch agar kompatible dengan mmcv dan mmengine
+!pip install torch==2.8.0 torchvision==0.23.0 --index-url https://download.pytorch.org/whl/cu126
 #kedua library tersebut bisa dipanggil di modul ultralytics, sepeti contoh diatas.
 #Randy_Ardiansyah_23_oktober_2025
